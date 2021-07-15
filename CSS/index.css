@@ -887,13 +887,31 @@ body {
     background-repeat: no-repeat;
     /* width:20px; */
   }
-  
+  .mommy{
+      /* border-color: red;
+      border-style: solid; */
+      width: max-content;
+      display: flex;
+      flex-direction: row;
+      /* align-items: stretch; */
+  }
+  .se{
+      margin-left:130px;
+  }
   /* Handle on hover */
   /* ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   } */
 @media screen and (max-width: 700px){
 
+    .se{
+        margin-left:0px;
+    }
+    .mommy{
+        display: flex;
+        flex-direction: column;
+        /* align-items: stretch; */
+    }
     .center{
         height:350px;
         width:60vw;
