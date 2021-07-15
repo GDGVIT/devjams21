@@ -23,13 +23,6 @@ body {
     background-color: #FBFBFB;
     z-index: 9999999;
 }
-.page-section{
-    /* height:100vh; */
-    /* border-style:solid;
-    border-color:blue; */
-    /* padding: 300px; */
-    /* background: linear-gradient(#2F13B2,#5454F3); */
-}
 /* #home{
     height:100vh;
 } */
@@ -47,9 +40,6 @@ body {
     border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
-}
-#home{
-    /* height:100vh; */
 }
 #aboutdsc{
     /* height:100vh; */
@@ -110,6 +100,24 @@ body {
     font-weight: 600;
     outline: none;
 }
+.but4 > button{
+    /* padding-left: 100px; */
+    /* position: relative; */
+    margin-top:15px;
+    margin-left:25px;
+    width:200px;
+    height:60px;
+    border-radius: 75px;
+    font-size: 1.3em;
+    border-style: hidden;
+    color: #4941E0;
+    font-weight: 600;
+    outline: none;
+}
+.dad{
+    display: flex;
+    flex-direction: row;
+}
 .but{
     text-align: center;
 }
@@ -120,9 +128,6 @@ body {
 .devjams1{
     text-align: left;
     /* width:38vw; */
-}
-.devjams2{
-    /* width:35vw; */
 }
 .devjams1 > h1{
     font-family: 'Red Hat Display';
@@ -882,13 +887,31 @@ body {
     background-repeat: no-repeat;
     /* width:20px; */
   }
-  
+  .mommy{
+      /* border-color: red;
+      border-style: solid; */
+      width: max-content;
+      display: flex;
+      flex-direction: row;
+      /* align-items: stretch; */
+  }
+  .se{
+      margin-left:130px;
+  }
   /* Handle on hover */
   /* ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   } */
 @media screen and (max-width: 700px){
 
+    .se{
+        margin-left:0px;
+    }
+    .mommy{
+        display: flex;
+        flex-direction: column;
+        /* align-items: stretch; */
+    }
     .center{
         height:350px;
         width:60vw;
@@ -971,13 +994,7 @@ body {
         display: block;
         width:100%;
     }
-    #devjams{
-        /* height:140vh; */
-        /* margin-top: -200px; */
-    }
-    #devtalks{
-        /* height:450vh; */
-    }
+
     .devjams2 > img{
         height:300px;
         width:86vw;
@@ -996,10 +1013,6 @@ body {
     .speakers > h1{
         padding-bottom:80px;
     }
-    #aboutdsc{
-        /* height:135vh; */
-        /* margin-top: 180px; */
-    }
     .dsc{
         height:250px;
         width:90vw;
@@ -1007,15 +1020,9 @@ body {
         margin-right: 20px;
         animation: none;
     }
-    #sponsers{
-        /* height:330vh; */
-    }
     .contactimg > img{
         width:250px;
         animation:none;
-    }
-    #contactus{
-        /* height:200vh; */
     }
     .poc > h3{
         font-size: 14px;
@@ -1027,9 +1034,6 @@ body {
         width:80vw;
         border-color: white;
         border-style: solid;
-    }
-    #contactus{
-        /* height:330vh; */
     }
     .col-4 > img{
         display:none;
@@ -1103,6 +1107,13 @@ body {
     .loader > img{
         width:85vw;
         margin-top:12vh;
+    }
+    .dad{
+        display: flex;
+        flex-direction: column;
+    }
+    .but4 > button{
+        margin-left: 0;
     }
     /* #typewriter1{
         margin-top:30px;
