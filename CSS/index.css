@@ -41,9 +41,6 @@ body {
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
-#home{
-    /* height:100vh; */
-}
 #aboutdsc{
     /* height:100vh; */
     border-style:solid;
@@ -131,9 +128,6 @@ body {
 .devjams1{
     text-align: left;
     /* width:38vw; */
-}
-.devjams2{
-    /* width:35vw; */
 }
 .devjams1 > h1{
     font-family: 'Red Hat Display';
@@ -982,13 +976,7 @@ body {
         display: block;
         width:100%;
     }
-    #devjams{
-        /* height:140vh; */
-        /* margin-top: -200px; */
-    }
-    #devtalks{
-        /* height:450vh; */
-    }
+
     .devjams2 > img{
         height:300px;
         width:86vw;
@@ -1007,10 +995,6 @@ body {
     .speakers > h1{
         padding-bottom:80px;
     }
-    #aboutdsc{
-        /* height:135vh; */
-        /* margin-top: 180px; */
-    }
     .dsc{
         height:250px;
         width:90vw;
@@ -1018,15 +1002,9 @@ body {
         margin-right: 20px;
         animation: none;
     }
-    #sponsers{
-        /* height:330vh; */
-    }
     .contactimg > img{
         width:250px;
         animation:none;
-    }
-    #contactus{
-        /* height:200vh; */
     }
     .poc > h3{
         font-size: 14px;
@@ -1038,9 +1016,6 @@ body {
         width:80vw;
         border-color: white;
         border-style: solid;
-    }
-    #contactus{
-        /* height:330vh; */
     }
     .col-4 > img{
         display:none;
